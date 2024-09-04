@@ -1,9 +1,7 @@
-"use client";
-
 import Container from "@/components/layout/container";
-import ArrowForwardIcon from "@/icons/arrow-forward";
+import NavigateButton from "@/components/ui/navigate-button";
 import Image from "next/image";
-import Link from "next/link";
+
 
 const ConnectWithUs = () => {
   return (
@@ -49,17 +47,7 @@ const ConnectWithUs = () => {
             </p>
           </div>
 
-          <Link
-            href={"#"}
-            className="group product-button-box-shadow w-fit bg-white rounded-[12.412px] p-3 flex gap-[5px] items-center mt-[18px]"
-          >
-            <p className="font-inter font-medium text-[#272727] text-[21.721px] leading-[31.029px]">
-              Contact Us
-            </p>
-            <div className="text-[#8F8F8F] group-hover:translate-x-2 transition-all">
-              <ArrowForwardIcon />
-            </div>
-          </Link>
+          <NavigateButton url="" text="Contact Us" />
         </div>
 
         <div className="md:w-[40%]">

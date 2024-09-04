@@ -1,8 +1,5 @@
-"use client";
-
 import Container from "@/components/layout/container";
 import Image from "next/image";
-import Link from "next/link";
 
 const MotherbotHero = () => {
   return (

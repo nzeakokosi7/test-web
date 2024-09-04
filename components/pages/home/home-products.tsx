@@ -1,8 +1,5 @@
-"use client";
-
 import Container from "@/components/layout/container";
 import ArrowForwardIcon from "@/icons/arrow-forward";
-import Image from "next/image";
 import Link from "next/link";
 
 const HomeProducts = () => {
@@ -32,7 +29,7 @@ const HomeProducts = () => {
 
           <ProductCard
             bgUrl="/assets/home/product-varscon-services.png"
-            linkUrl="#"
+            linkUrl="/products/varscon-services"
             linkText="Learn more"
             title="Varscon Services"
             description="Varscon was built and is maintained by seasoned professionals. Our veteran engineers and senior managers are the expert opinion you need to scale your business."

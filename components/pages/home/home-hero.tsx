@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "@/components/layout/container";
 import GlobalSearch from "@/icons/global-search";
 import Image from "next/image";
