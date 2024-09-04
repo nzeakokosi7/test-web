@@ -1,6 +1,7 @@
 "use client";
 
 import Container from "@/components/layout/container";
+import GlobalSearch from "@/icons/global-search";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -96,12 +97,11 @@ const HomeHero = () => {
             <p className="font-publicSans text-[40px] text-[#1E1E1E] leading-[#1E1E1E]">
               Varscon operates through
             </p>
-            <Image
-              src={"/assets/global-search.svg"}
-              alt="webflow_logo"
-              width={40}
-              height={40}
-            />
+
+            <div className="w-[40px] text-[#292D32] flex justify-center items-center">
+              <GlobalSearch />
+            </div>
+
             <p className="font-publicSans text-[40px] text-[#1E1E1E] leading-[#1E1E1E]">
               three dynamic facets
             </p>

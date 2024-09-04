@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ConnectWithUs = () => {
   return (
-    <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[100px] rounded-b-[80px]">
+    <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[100px] rounded-b-[40px] md:rounded-b-[80px] border-b-[1px] border-b-[#94A3B8]">
       <Container className="connect-with-us-box-shadow flex flex-col md:flex-row gap-[135px] md:justify-between md:items-center px-[60px] py-[80px] rounded-[37px] border-[1px] border-[#d9d9d9] bg-[url(/assets/connect-with-us-bg.png)] bg-cover bg-no-repeat">
         <div className="md:w-[55%] flex flex-col gap-[34px]">
           <div className="let-connect-box-shadow w-fit flex gap-3 items-center py-1 px-2.5 rounded-[20px] bg-white">

@@ -52,7 +52,7 @@ const Footer = () => {
         <Image
           src={"/assets/footer-bg.png"}
           alt="varscon_footer"
-          width={1800}
+          width={800}
           height={70}
           className="w-full"
         />

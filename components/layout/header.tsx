@@ -29,7 +29,7 @@ export default function Header() {
 
         <nav className="flex items-center gap-[18px] rounded-[66px] bg-[#D9D9D9]/80 py-[6px] px-2">
           <Link
-            href={"/products"}
+            href={"/products/motherbot"}
             className={`font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname.includes("/products") ? "bg-white" : "bg-transparent"
             }`}
@@ -123,9 +123,9 @@ export default function Header() {
           }}
         >
           <Link
-            href={"/products"}
-            className={`font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
-              pathname === "/products" ? "bg-white" : "bg-transparent"
+            href={"/products/motherbot"}
+            className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
+              pathname.includes("/products") ? "bg-white" : "bg-transparent"
             }`}
           >
             Products
@@ -133,7 +133,7 @@ export default function Header() {
 
           <Link
             href={"/resources"}
-            className={`font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
+            className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/resources" ? "bg-white" : "bg-transparent"
             }`}
           >
@@ -142,7 +142,7 @@ export default function Header() {
 
           <Link
             href={"/careers"}
-            className={`font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
+            className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/careers" ? "bg-white" : "bg-transparent"
             }`}
           >
@@ -151,7 +151,7 @@ export default function Header() {
 
           <Link
             href={"/about-us"}
-            className={`font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
+            className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/about-us" ? "bg-white" : "bg-transparent"
             }`}
           >

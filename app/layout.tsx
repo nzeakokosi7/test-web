@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import { inter, publicSans } from "./fonts";
+import { inter, laBelleAurore, publicSans } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${inter.variable} ${publicSans.className} ${publicSans.variable} min-h-[100dvh] grid grid-rows-[auto_1fr_auto]`}
+        className={`${inter.className} ${inter.variable} ${publicSans.variable} ${laBelleAurore.variable} min-h-[100dvh] grid grid-rows-[auto_1fr_auto]`}
       >
         <header className="w-full fixed top-0 z-50 bg-transparent">
           <Header />

@@ -72,7 +72,7 @@ function ProductCard({
           href={linkUrl}
           className="group product-button-box-shadow w-fit bg-white rounded-[12.412px] p-3 flex gap-[5px] items-center mt-[18px]"
         >
-          <p className="font-inter font-medium text-[#272727] text-[21.721px] leading-[31.029px]">
+          <p className="font-inter font-medium text-[#272727] text-[13px] md:text-[21.721px] leading-[18.437px] md:leading-[31.029px]">
             {linkText}
           </p>
           <div className="text-[#8F8F8F] group-hover:translate-x-2 transition-all">
@@ -92,7 +92,7 @@ function ProductCard({
         href={linkUrl}
         className="group product-button-box-shadow w-fit bg-white rounded-[12.412px] p-3 flex gap-[5px] items-center mt-[18px]"
       >
-        <p className="font-inter font-medium text-[#272727] text-[21.721px] leading-[31.029px]">
+        <p className="font-inter font-medium text-[#272727] text-[13px] md:text-[21.721px] leading-[18.437px] md:leading-[31.029px]">
           {linkText}
         </p>
         <div className="text-[#8F8F8F]">

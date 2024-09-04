@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         publicSans: ["var(--font-publicSans)"],
         inter: ["var(--font-inter)"],
+        laBelleAurore: ["var(--font-laBelleAurore)"],
       },
     },
   },
