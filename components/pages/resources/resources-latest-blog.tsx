@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ResourcesLatestBlog = () => {
-  const blogs = [
+  const blogs: BlogProps[] = [
     {
       imgUrl: "/assets/resources/resources-2.png",
       alt: "resources-2",
@@ -58,23 +58,7 @@ const ResourcesLatestBlog = () => {
 
 export default ResourcesLatestBlog;
 
-function BlogCard({
-  blog,
-}: {
-  blog: {
-    imgUrl: string;
-    alt: string;
-    type: string;
-    title: string;
-    description: string;
-    authorImg: string;
-    authorImgAlt: string;
-    author: string;
-    date_created: string;
-    minute_read: string;
-    linkUrl: string;
-  };
-}) {
+function BlogCard({ blog }: { blog: BlogProps }) {
   const {
     imgUrl,
     alt,

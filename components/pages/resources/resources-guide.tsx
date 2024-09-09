@@ -4,11 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ResourcesGuide = () => {
-  const blogs = [
+  const blogs: BlogProps[] = [
     {
       imgUrl: "/assets/resources/resources-4.png",
       alt: "resources-4",
-      type: "Product update",
+      type: "Guides",
       title: "Text",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -23,7 +23,7 @@ const ResourcesGuide = () => {
     {
       imgUrl: "/assets/resources/resources-5.png",
       alt: "resources-5",
-      type: "Product update",
+      type: "Guides",
       title: "Text",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -58,23 +58,7 @@ const ResourcesGuide = () => {
 
 export default ResourcesGuide;
 
-function BlogCard({
-  blog,
-}: {
-  blog: {
-    imgUrl: string;
-    alt: string;
-    type: string;
-    title: string;
-    description: string;
-    authorImg: string;
-    authorImgAlt: string;
-    author: string;
-    date_created: string;
-    minute_read: string;
-    linkUrl: string;
-  };
-}) {
+function BlogCard({ blog }: { blog: BlogProps }) {
   const {
     imgUrl,
     alt,

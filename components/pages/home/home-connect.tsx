@@ -49,7 +49,7 @@ const ConnectWithUs = ({ bgColor }: { bgColor?: string }) => {
             </p>
           </div>
 
-          <NavigateButton url="" text="Contact Us" />
+          <NavigateButton url="/contact-us" text="Contact Us" />
         </div>
 
         <div className="md:w-[40%]">
