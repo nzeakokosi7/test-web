@@ -25,13 +25,13 @@ const VarsconServicesMain = () => {
     },
   ];
   return (
-    <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[50px] px-[30px]">
+    <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[50px]">
       <Container className="flex flex-col gap-[38px]">
         <div className="w-full flex flex-col gap-3">
-          <h3 className="font-publicSans font-semibold text-[48px] text-[#1E1E1E]">
+          <h3 className="font-publicSans font-semibold text-[36px] md:text-[48px] text-[#1E1E1E]">
             <span className="text-[#00CA72]">Varscon</span> Services
           </h3>
-          <p className="w-full max-w-[914px] font-inter text-[24px] leading-[#1E1E1E]/55">
+          <p className="w-full max-w-[914px] font-inter text-[16px] md:text-[24px] leading-[21.49px] md:leading-[32.234px] text-[#1E1E1E]/55">
             From architecture evaluation to cloud security, our experts at
             Varscon Services empower businesses to optimize their product
             development lifecycle and stay ahead of the curve.
