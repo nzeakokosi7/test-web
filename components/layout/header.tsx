@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <section className="w-full bg-white md:bg-transparent h-[80px] flex items-center justify-center">
       <Container className="hidden md:flex justify-between items-center">
-        <Link href={"/"}>
+        <Link href={"/"} className="bg-white/70 p-4 rounded-[66px]">
           <Image
             src={"/assets/varscon-logo.svg"}
             alt="varscon_logo"
@@ -69,7 +69,7 @@ export default function Header() {
       </Container>
 
       <Container className="flex md:hidden justify-between items-center">
-        <Link href={"/"}>
+        <Link href={"/"} onClick={handleShow}>
           <Image
             src={"/assets/varscon-logo.svg"}
             alt="varscon_logo"
@@ -124,6 +124,7 @@ export default function Header() {
         >
           <Link
             href={"/products/motherbot"}
+            onClick={handleShow}
             className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname.includes("/products") ? "bg-white" : "bg-transparent"
             }`}
@@ -133,6 +134,7 @@ export default function Header() {
 
           <Link
             href={"/resources"}
+            onClick={handleShow}
             className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/resources" ? "bg-white" : "bg-transparent"
             }`}
@@ -142,6 +144,7 @@ export default function Header() {
 
           <Link
             href={"/careers"}
+            onClick={handleShow}
             className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/careers" ? "bg-white" : "bg-transparent"
             }`}
@@ -151,6 +154,7 @@ export default function Header() {
 
           <Link
             href={"/about-us"}
+            onClick={handleShow}
             className={`w-fit font-publicSans text-[#1E1E1E]/80 text-[20px] p-2 rounded-[32px] ${
               pathname === "/about-us" ? "bg-white" : "bg-transparent"
             }`}

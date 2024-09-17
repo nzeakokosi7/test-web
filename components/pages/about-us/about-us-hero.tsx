@@ -1,7 +1,4 @@
 import Container from "@/components/layout/container";
-import GlobalSearch from "@/icons/global-search";
-import Image from "next/image";
-import Link from "next/link";
 
 const AboutUsHero = () => {
   return (
@@ -42,7 +39,7 @@ const AboutUsHero = () => {
             ambition. As our dedicated consultancy arm, we employ seasoned
             consultants who bring a wealth of knowledge and experience to your
             product development journey. Together, we push the boundaries of
-            what's possible in tech, driving innovation and excellence in every
+            what’s possible in tech, driving innovation and excellence in every
             project we undertake.
           </p>
         </article>

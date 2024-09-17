@@ -23,7 +23,7 @@ const HomeHero = () => {
               Visit our studio
             </Link>
             <Link
-              href={"#"}
+              href={"/contact-us/ask-us-anything"}
               className="white-button-box-shadow bg-white rounded-[8px] p-[10px] font-inter font-medium text-[#1E1E1E] text-[24px] leading-[32.234px]"
             >
               Book consultation
