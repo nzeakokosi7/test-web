@@ -26,7 +26,7 @@ const VarsconServicesMain = () => {
   ];
   return (
     <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[50px]">
-      <Container className="flex flex-col gap-[38px]">
+      <Container className="flex flex-col gap-[50px] md:gap-[38px]">
         <div className="w-full flex flex-col gap-3">
           <h3 className="font-publicSans font-semibold text-[36px] md:text-[48px] text-[#1E1E1E]">
             <span className="text-[#00CA72]">Varscon</span> Services
@@ -61,15 +61,15 @@ function ServicesCard({
 }) {
   const { imageUrl, title, description } = data;
   return (
-    <div className="bg-white flex flex-col gap-[47px] px-[25px] pt-[33px] pb-[55px] rounded-[21px]">
+    <div className="bg-white flex flex-col gap-[40.52px] md:gap-[47px] px-[21.56px] md:px-[25px] pt-[29.32px] md:pt-[33px] pb-[55px] rounded-[18.107px] md:rounded-[21px]">
       <Image src={imageUrl} alt={title} width={172} height={180} />
 
       <div className="flex flex-col gap-3">
-        <h2 className="font-publicSans font-medium text-[32px] text-[#1E1E1E]">
+        <h2 className="font-publicSans font-medium text-[24px] md:text-[32px] text-[#1E1E1E]">
           {title}
         </h2>
 
-        <p className="font-inter text-[16px] leading-[21.49px] text-[#1E1E1E]/55">
+        <p className="font-inter text-[13.796px] md:text-[16px] leading-[18.529px] md:leading-[21.49px] text-[#1E1E1E]/55">
           {description}
         </p>
       </div>

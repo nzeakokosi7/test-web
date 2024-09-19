@@ -43,7 +43,7 @@ export default function ReasonForContactingUs({
           className="flex-grow font-publicSans font-semibold text-[14.667px] md:text-[24.038px] text-[#18181B] placeholder:text-[#E3E3E3] bg-transparent focus:outline-none"
         />
         <div
-          className="text-[#292D32]"
+          className="w-[10px] md:w-[20px] h-[10px] md:h-[20px] text-[#292D32]"
           style={{
             transform: `rotateZ(${showDrop ? "270" : "90"}deg)`,
             transition: "transform ease 200ms",

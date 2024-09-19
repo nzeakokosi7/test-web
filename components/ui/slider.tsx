@@ -43,9 +43,9 @@ const Slider = ({ slides, hideNavBtn = false }: SliderProps) => {
   return (
     <section
       aria-label="Slider Label"
-      className="w-[100%] flex flex-col gap-5 items-center"
+      className="w-[100%] flex flex-col gap-5 items-center overflow-hidden"
     >
-      <div className="w-[100%] flex overflow-hidden rounded-[21px]">
+      <div className="slider-width flex overflow-hidden rounded-[21px]">
         {slides.map((node, index) => (
           <div
             key={index}
@@ -62,9 +62,11 @@ const Slider = ({ slides, hideNavBtn = false }: SliderProps) => {
           <button
             disabled={imageIndex === 0}
             onClick={showPrevImage}
-            className="disabled:opacity-20 rotate-180 w-[50px] h-[50px] rounded-full bg-transparent text-[#292D32] border-[1px] border-[#DAE0E6] flex items-center justify-center"
+            className="disabled:opacity-20 rotate-180 w-[33px] h-[33px] md:w-[50px] md:h-[50px] rounded-full bg-transparent text-[#292D32] border-[1px] border-[#DAE0E6] flex items-center justify-center"
           >
-            <ArrowForwardIcon />
+            <div className="w-[10px] md:w-[20px] h-[10px] md:h-[20px] text-[#292D32]">
+              <ArrowForwardIcon />
+            </div>
           </button>
 
           <div className="flex gap-2">
@@ -95,9 +97,11 @@ const Slider = ({ slides, hideNavBtn = false }: SliderProps) => {
           <button
             disabled={imageIndex === slides.length - 1}
             onClick={showNextImage}
-            className="disabled:opacity-20 w-[50px] h-[50px] rounded-full bg-transparent text-[#292D32] border-[1px] border-[#DAE0E6] flex items-center justify-center"
+            className="disabled:opacity-20 w-[33px] h-[33px] md:w-[50px] md:h-[50px] rounded-full bg-transparent text-[#292D32] border-[1px] border-[#DAE0E6] flex items-center justify-center"
           >
-            <ArrowForwardIcon />
+            <div className="w-[10px] md:w-[20px] h-[10px] md:h-[20px] text-[#292D32]">
+              <ArrowForwardIcon />
+            </div>
           </button>
         </div>
       ) : (

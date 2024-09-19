@@ -1,8 +1,5 @@
 import Container from "@/components/layout/container";
 import NavigateButton from "@/components/ui/navigate-button";
-import Slider from "@/components/ui/slider";
-import BackArrow from "@/icons/back-arrow";
-import Image from "next/image";
 
 const AboutUsPartnerWithUs = () => {
   return (

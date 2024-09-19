@@ -36,6 +36,38 @@ const AboutUsMotherbot = () => {
       linkText: "Visit Nwahia",
       linkUrl: "",
     },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
   ];
 
   const testimonialsNode = testimonials.map((data, index) => (
@@ -77,8 +109,8 @@ function SlideCard({
 }) {
   const { imageUrl, caption, linkText, linkUrl } = data;
   return (
-    <figure className="w-full flex flex-col gap-[81px] rounded-[12.233px] md:rounded-[28px] bg-white py-[10.15px] px-[10.15px] md:py-10 md:px-[50px]">
-      <div className="rounded-[] md:rounded-[14px] pt-[30px] md:pt-[51px] px-[14px] md:px-[37px] bg-[#FFD231]">
+    <figure className="w-full flex flex-col gap-[21.03px] md:gap-[30px] rounded-[12.233px] md:rounded-[28px] bg-white py-[10.15px] px-[10.15px] md:py-10 md:px-[50px]">
+      <div className="rounded-[10.154px] md:rounded-[14px] pt-[30px] md:pt-[51px] px-[14px] md:px-[37px] bg-[#FFD231]">
         <Image
           src={imageUrl}
           alt={linkText}

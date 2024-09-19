@@ -69,7 +69,7 @@ export default function Header() {
       </Container>
 
       <Container className="flex md:hidden justify-between items-center">
-        <Link href={"/"} onClick={handleShow}>
+        <Link href={"/"} onClick={() => setIsOpen(false)}>
           <Image
             src={"/assets/varscon-logo.svg"}
             alt="varscon_logo"

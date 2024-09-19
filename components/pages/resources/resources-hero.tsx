@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const ResourcesHero = () => {
   return (
-    <section className="w-full flex flex-col items-center justify-center py-[120px] px-[30px]">
-      <Container className="flex flex-col gap-[60px]">
-        <h1 className="font-publicSans font-semibold text-[64px] text-[#1E1E1E] leading-[68px]">
+    <section className="w-full flex flex-col items-center justify-center pt-[120px] pb-[70px] md:pb-[120px]">
+      <Container className="flex flex-col gap-[30px] md:gap-[60px]">
+        <h1 className="font-publicSans font-semibold text-[40px] md:text-[64px] text-[#1E1E1E] leading-[68px]">
           Resources
         </h1>
 
@@ -68,12 +68,12 @@ const ResourcesHero = () => {
 
             <Link
               href={"#"}
-              className="group w-fit green-button-box-shadow bg-[#0ABD3C] rounded-[8px] p-[10px] flex gap-[5px] items-center"
+              className="group w-fit green-button-box-shadow bg-[#0ABD3C] rounded-[5.513px] md:rounded-[8px] p-[6.89px] md:p-[10px] flex gap-[5px] items-center"
             >
               <p className="font-inter text-white text-[16.54px] md:text-[24px] leading-[22.215px] md:leading-[32.234px]">
                 Read more
               </p>
-              <div className="text-white group-hover:translate-x-2 transition-all">
+              <div className="w-[10px] md:w-[20px] h-[10px] md:h-[20px] text-white group-hover:translate-x-2 transition-all">
                 <ArrowForwardIcon />
               </div>
             </Link>

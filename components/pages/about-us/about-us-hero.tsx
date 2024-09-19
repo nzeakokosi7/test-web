@@ -2,7 +2,7 @@ import Container from "@/components/layout/container";
 
 const AboutUsHero = () => {
   return (
-    <section className="w-full flex flex-col gap-[50px] md:gap-[78px] items-center justify-center bg-white pt-[160px] pb-[72px] md:pb-[128px]">
+    <section className="w-full flex flex-col gap-[50px] md:gap-[78px] items-center justify-center bg-white pt-[100px] mb:pt-[160px] pb-[72px] md:pb-[128px]">
       <div className="w-full flex flex-col justify-center items-center bg-[url(/assets/home/home-hero-bg-1.png)] bg-cover bg-no-repeat pt-[20px]">
         <Container className="flex flex-col items-center justify-center gap-[60px] md:gap-[157px]">
           <div className="flex flex-col gap-3 items-center justify-center">

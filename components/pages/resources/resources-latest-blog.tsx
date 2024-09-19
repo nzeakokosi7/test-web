@@ -36,7 +36,7 @@ const ResourcesLatestBlog = () => {
     },
   ];
   return (
-    <section className="w-full flex flex-col items-center justify-center py-5 md:py-[50px] px-[30px]">
+    <section className="w-full flex flex-col items-center justify-center py-5 md:py-[50px]">
       <Container className="flex flex-col gap-5 md:gap-10">
         <div className="flex gap-[9px] items-center">
           <div className="w-[4px] h-[20px] rounded-[8px] bg-[#2749A1]"></div>
@@ -46,7 +46,7 @@ const ResourcesLatestBlog = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-10">
           {blogs.map((blog, index) => (
             <BlogCard key={index} blog={blog} />
           ))}
@@ -124,12 +124,12 @@ function BlogCard({ blog }: { blog: BlogProps }) {
 
         <Link
           href={linkUrl}
-          className="group w-fit green-button-box-shadow bg-[#0ABD3C] rounded-[8px] p-[10px] flex gap-[5px] items-center"
+          className="group w-fit green-button-box-shadow bg-[#0ABD3C] rounded-[5.513px] md:rounded-[8px] p-[6.89px] md:p-[10px] flex gap-[5px] items-center"
         >
           <p className="font-inter text-white text-[16.54px] md:text-[24px] leading-[22.215px] md:leading-[32.234px]">
             Read more
           </p>
-          <div className="text-white group-hover:translate-x-2 transition-all">
+          <div className="w-[10px] md:w-[20px] h-[10px] md:h-[20px] text-white group-hover:translate-x-2 transition-all">
             <ArrowForwardIcon />
           </div>
         </Link>

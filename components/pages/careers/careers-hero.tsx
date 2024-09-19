@@ -1,6 +1,5 @@
 import Container from "@/components/layout/container";
 import NavigateButton from "@/components/ui/navigate-button";
-import Image from "next/image";
 
 const CareersHero = () => {
   return (
@@ -30,7 +29,7 @@ const CareersHero = () => {
       </div>
 
       <Container className="flex flex-col justify-center gap-[19.68px] md:gap-[43px]">
-        <article className="w-full max-w-[927px] flex flex-col gap-3 md:gap-[5.49px] md:mt-[10px]">
+        <article className="w-full max-w-[927px] flex flex-col gap-[5.49px] md:gap-3 md:mt-[10px]">
           <h3 className="w-full text-[#1E1E1E] font-publicSans font-medium text-[32px] md:text-[40px] leading-[32px] md:leading-[40px]">
             Life at Varscon
           </h3>

@@ -3,7 +3,6 @@ import NavigateButton from "@/components/ui/navigate-button";
 import GlobalSearch from "@/icons/global-search";
 import Image from "next/image";
 
-
 const MotherbotServices = () => {
   const productsData = [
     {
@@ -48,9 +47,9 @@ const MotherbotServices = () => {
   ];
   return (
     <section className="w-full bg-white pb-[10px]">
-      <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[45px] rounded-b-[80px] border-b-[1px] border-b-[#94A3B8]">
-        <Container className="flex flex-col gap-[27px]">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[31px] gap-y-[27px]">
+      <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[30px] md:py-[45px] rounded-b-[40px] md:rounded-b-[80px] border-b-[1px] border-b-[#94A3B8]">
+        <Container className="flex flex-col gap-[50px] md:gap-[27px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[18px] md:gap-x-[31px] md:gap-y-[27px]">
             {productsData.map((product, index) => (
               <div
                 key={index}
@@ -68,7 +67,7 @@ const MotherbotServices = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-[7.13px] md:gap-3">
                   <h1 className="relative font-publicSans font-semibold text-[38.028px] md:text-[64px] text-[#1E1E1E]">
                     {product.title}
                     {product.coming_soon && (

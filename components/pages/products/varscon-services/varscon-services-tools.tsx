@@ -1,7 +1,6 @@
 import Container from "@/components/layout/container";
 import NavigateButton from "@/components/ui/navigate-button";
 import Slider from "@/components/ui/slider";
-import BackArrow from "@/icons/back-arrow";
 import Image from "next/image";
 
 const VarsconServicesTools = () => {
@@ -55,16 +54,16 @@ const VarsconServicesTools = () => {
   return (
     <section className="w-full flex flex-col items-center justify-center bg-white rounded-b-[40px] md:rounded-b-[80px] border-b-[1px] border-b-[#94A3B8]">
       <Container className="flex flex-col items-center gap-[50px] py-[70px] md:py-[100px]">
-        <div className="w-full max-w-[1100px] flex flex-col gap-[44px]">
-          <h3 className="font-publicSans font-medium text-black text-center text-[40px]">
+        <div className="w-full max-w-[1100px] flex flex-col gap-5 md:gap-[44px]">
+          <h3 className="font-publicSans font-medium text-black text-center text-[24px] md:text-[40px]">
             Tools and technology
           </h3>
 
-          <div className="flex gap-[58px] flex-wrap items-center justify-center">
+          <div className="flex gap-x-[31px] gap-y-3 md:gap-x-[58px] md:gap-y-8 flex-wrap items-center justify-center">
             {toolsLogos.map((logo, index) => (
               <div
                 key={index}
-                className="tools-box-shadow p-[15px] flex justify-center items-center rounded-[10.659px] border-[0.609px] border-[#D9D9D9] bg-white"
+                className="tools-box-shadow w-[30px] md:w-[50px] p-[8.18px] md:p-[15px] flex justify-center items-center rounded-[5.727px] md:rounded-[10.659px] border-[0.609px] border-[#D9D9D9] bg-white"
               >
                 <Image src={logo.url} alt={logo.alt} width={36} height={36} />
               </div>
@@ -72,12 +71,12 @@ const VarsconServicesTools = () => {
           </div>
         </div>
 
-        <div className="w-full max-w-[1260px] md:pt-[100px] pb-[30px] md:pb-[56px]">
+        <div className="w-[100%] max-w-[1260px] md:pt-[100px] pb-[30px] md:pb-[56px]">
           <Slider slides={testimonialsNode} />
         </div>
 
         <div className="w-full flex flex-col gap-[25px]">
-          <div className="w-fit flex gap-3 items-center py-1 px-2.5 rounded-[20px] bg-[#00ca720f]">
+          <div className="w-fit flex gap-[8.71px] md:gap-3 items-center py-[2.9px] md:py-1 px-[7.26px] md:px-2.5 rounded-[14.511px] md:rounded-[20px] bg-[#00ca720f]">
             <div className="w-[17.414px] md:w-[24px] text-[#00CA72]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -140,8 +139,8 @@ function SlideCard({
 }) {
   const { testimonial, name, title, company, logoUrl } = data;
   return (
-    <div className="w-full flex flex-col gap-[81px] rounded-[21px] bg-[#CDF1FB] p-[50px]">
-      <p className="font-inter text-[40px] text-[#1E1E1E] leading-[53.724px]">
+    <div className="w-[100%] flex flex-col gap-[37px] md:gap-[81px] rounded-[21px] bg-[#CDF1FB] py-[27px] md:py-[50px] px-[50px]">
+      <p className="font-inter text-[24px] md:text-[40px] text-[#1E1E1E] leading-[32.234px] md:leading-[53.724px]">
         {testimonial}
       </p>
 

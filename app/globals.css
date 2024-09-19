@@ -32,6 +32,10 @@ body {
   }
 } */
 
+.slider-width {
+  width: calc(100vw - 80px);
+}
+
 .slider-node {
   width: 100%;
   height: 100%;
