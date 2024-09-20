@@ -23,6 +23,7 @@ const VarsconServicesMain = () => {
       description:
         "Robust incident response processes and dedicated user support to keep your customers satisfied and protected.",
     },
+    
   ];
   return (
     <section className="w-full flex flex-col items-center justify-center bg-[#F5F5F5] py-[50px]">

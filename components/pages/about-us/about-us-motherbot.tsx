@@ -68,6 +68,70 @@ const AboutUsMotherbot = () => {
       linkText: "Visit Nwahia",
       linkUrl: "",
     },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
+
+    {
+      imageUrl: "/assets/products/motherbot-hero.png",
+      caption:
+        "The 24/7 business assistant for your social commerce to drive sales and meet customer demands 10x faster.",
+      linkText: "Visit Nwahia",
+      linkUrl: "",
+    },
   ];
 
   const testimonialsNode = testimonials.map((data, index) => (
@@ -121,7 +185,7 @@ function SlideCard({
       </div>
 
       <figcaption className="w-full flex flex-col gap-[18.86px] md:gap-[26px]">
-        <p className="w-full max-w-[997px] font-inter font-medium text-[#1E1E1E]/55 text-[16px] md:text-[24px] leading-[23.2px] md:leading-[34.8px] ">
+        <p className="w-full max-w-[997px] hyphens-auto font-inter font-medium text-[#1E1E1E]/55 text-[16px] md:text-[24px] leading-[23.2px] md:leading-[34.8px] ">
           {caption}
         </p>
 

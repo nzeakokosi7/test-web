@@ -69,7 +69,7 @@ const Slider = ({ slides, hideNavBtn = false }: SliderProps) => {
             </div>
           </button>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap justify-center">
             {slides.map((slide, index) => (
               <button
                 key={index}
@@ -105,7 +105,7 @@ const Slider = ({ slides, hideNavBtn = false }: SliderProps) => {
           </button>
         </div>
       ) : (
-        <div className="flex gap-2 p-[6px] rounded-[6px] border-[1px] border-[#D9D9D9] bg-white">
+        <div className="flex gap-2 flex-wrap justify-center p-[6px] rounded-[6px] border-[1px] border-[#D9D9D9] bg-white">
           {slides.map((slide, index) => (
             <button
               key={index}

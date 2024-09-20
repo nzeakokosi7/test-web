@@ -45,6 +45,207 @@ const VarsconServicesTools = () => {
       company: "Varscon",
       logoUrl: "/assets/company-logo/basecamp.svg",
     },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Kosi",
+      title: "CEO",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
+
+    {
+      testimonial:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+      name: "Njoku",
+      title: "Project Manager",
+      company: "Varscon",
+      logoUrl: "/assets/company-logo/basecamp.svg",
+    },
   ];
 
   const testimonialsNode = testimonials.map((data, index) => (
@@ -140,7 +341,7 @@ function SlideCard({
   const { testimonial, name, title, company, logoUrl } = data;
   return (
     <div className="w-[100%] flex flex-col gap-[37px] md:gap-[81px] rounded-[21px] bg-[#CDF1FB] py-[27px] md:py-[50px] px-[50px]">
-      <p className="font-inter text-[24px] md:text-[40px] text-[#1E1E1E] leading-[32.234px] md:leading-[53.724px]">
+      <p className="font-inter hyphens-auto text-[24px] md:text-[40px] text-[#1E1E1E] leading-[32.234px] md:leading-[53.724px]">
         {testimonial}
       </p>
 
